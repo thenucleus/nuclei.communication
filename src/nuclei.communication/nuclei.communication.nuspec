@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Nuclei.Communication</id>
-    <version>${Version}</version>
+    <version>$VersionSemantic$</version>
     <authors>P. van der Velde</authors>
     <owners>P. van der Velde</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
@@ -14,19 +14,19 @@
       same remote endpoints.
     </description>
     <releaseNotes>
-      ${ReleaseNotes}
+      $ReleaseNotes$
     </releaseNotes>
     <dependencies>
-      ${Dependencies}
-      <dependency id="Nuclei" version="${Version}" />
-      <dependency id="Nuclei.Configuration" version="${Version}" />
-      <dependency id="Nuclei.Diagnostics" version="${Version}" />
+      $Dependencies$
+      <dependency id="Nuclei" version="$VersionSemantic$" />
+      <dependency id="Nuclei.Configuration" version="$VersionSemantic$" />
+      <dependency id="Nuclei.Diagnostics" version="$VersionSemantic$" />
     </dependencies>
   </metadata>
   <files>
-    <file src="${DirBin}\Nuclei.Communication.dll" target="lib\net45" />
-    <file src="${DirBin}\Nuclei.Communication.pdb" target="lib\net45" />
-    <file src="${DirBin}\Nuclei.Communication.xml" target="lib\net45" />
-    <file src="${DirSrc}\Nuclei.Communication\**\*.cs" target="src\Nuclei.Communication" />
+    <file src="$DirBin$\Nuclei.Communication.dll" target="lib\net45" />
+    <file src="$DirBin$\Nuclei.Communication.pdb" target="lib\net45" />
+    <file src="$DirBin$\Nuclei.Communication.xml" target="lib\net45" />
+    <file src="$DirSrc$\Nuclei.Communication\**\*.cs" target="src\Nuclei.Communication" />
   </files>
 </package>
