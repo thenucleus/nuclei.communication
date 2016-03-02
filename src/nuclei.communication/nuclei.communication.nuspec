@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Nuclei.Communication</id>
-    <version>$VersionSemanticNuGet$</version>
+    <version>$VersionSemantic$</version>
     <authors>P. van der Velde</authors>
     <owners>P. van der Velde</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
@@ -10,7 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       Provides a communication method that provides ways to send messages and commands
-      to remote endpoints. There are also ways of receiving notifications from the 
+      to remote endpoints. There are also ways of receiving notifications from the
       same remote endpoints.
     </description>
     <releaseNotes>
@@ -24,9 +24,9 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="$DirBin$\Nuclei.Communication.dll" target="lib\net45" />
-    <file src="$DirBin$\Nuclei.Communication.pdb" target="lib\net45" />
-    <file src="$DirBin$\Nuclei.Communication.xml" target="lib\net45" />
+    <file src="$DirBin$\Nuclei.Communication.dll" target="lib\net40" />
+    <file src="$DirBin$\Nuclei.Communication.pdb" target="lib\net40" />
+    <file src="$DirBin$\Nuclei.Communication.xml" target="lib\net40" />
     <file src="$DirSrc$\Nuclei.Communication\**\*.cs" target="src\Nuclei.Communication" />
   </files>
 </package>
